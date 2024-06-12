@@ -10,7 +10,7 @@ function FlashCards() {
     //   [id]: answer,
     // }));
 
-    setSelectedId(id);
+    setSelectedId(id !== selectedId ? id : null);
   };
 
   return (
